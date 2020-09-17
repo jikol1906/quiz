@@ -7,6 +7,7 @@ $(document).ready(function () {
       details:
         'Wenn qualitativ gute Unterstützung und Verständnis zur Verfügung stehen, können Menschen mit einer SES soziale, akademische und berufliche Erfolge erreichen.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -15,6 +16,7 @@ $(document).ready(function () {
       details:
         'Der Schriftspracherwerb hängt von den jeweiligen sprachlichen Fähigkeiten ab und genau hier liegt das Hauptproblem bei Menschen mit einer SES.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -23,6 +25,7 @@ $(document).ready(function () {
       details:
         'Menschen mit einer SES sehen nicht anders aus als andere Gleichaltrige, die Störung erscheint nicht sofort ersichtlich.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question: 'Menschen mit einer SES sind nicht intelligent.',
@@ -30,6 +33,7 @@ $(document).ready(function () {
       details:
         'Menschen mit einer SES haben Schwierigkeiten mit der Sprache, nicht mit der Intelligenz.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -38,6 +42,7 @@ $(document).ready(function () {
       details:
         'Liegt eine SES vor, sind alle Sprachen, die diese Person spricht, davon betroffen.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -46,6 +51,7 @@ $(document).ready(function () {
       details:
         'Obwohl die Sprachentwicklung das Hauptproblem darstellt, kann eine SES oft mit Herausforderungen/Schwierigkeiten in anderen Bereichen der Entwicklung einhergehen.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -54,6 +60,7 @@ $(document).ready(function () {
       details:
         'Untersuchungen zeigen, dass Jugendliche von spezieller/spezialisierter Unterstützung bei der/zurEntwicklung ihrer sprachlichen Fähigkeiten profitieren.',
       didAnswer: false,
+      chosenAnswer: null
     },
     {
       question:
@@ -62,6 +69,7 @@ $(document).ready(function () {
       details:
         'SES treten bei Kindern auf der ganzen Welt und in jedem sozialen Milieu auf.',
       didAnswer: false,
+      chosenAnswer: null
     },
 
     {
@@ -71,6 +79,7 @@ $(document).ready(function () {
       details:
         'Trotz der hohen Prävalenz ist die genaue Ursache von SES nach wie vor unbekannt. Eine SES kann familiär vererbt und durch genetische Faktoren beeinflusst werden.',
       didAnswer: false,
+      chosenAnswer: null
     },
 
     {
@@ -80,6 +89,7 @@ $(document).ready(function () {
       details:
         'Eine SES kann ein Leben lang bestehen bleiben, wenn sie nicht erkannt und nicht behandelt wird.',
       didAnswer: false,
+      chosenAnswer: null
     },
   ];
   var answers = [];
