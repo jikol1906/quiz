@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   color: #222;
-  
+  letter-spacing:.17rem;
   background-color: #7b2172;
 }
 
@@ -36,11 +36,11 @@ body {
 .container {
   max-width: 70rem;
   margin: 0 auto;
+  padding:2rem;
 }
 
 .scoreboard {
   background-color: #fafafa;
-  border-radius: 5px;
   padding: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem;
@@ -55,7 +55,6 @@ body {
   background-color: #fafafa;
   margin-bottom: 3rem;
   padding: 4rem 5rem;
-  border-radius: 5px;
   -webkit-box-shadow: 5px 7px 22px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 7px 22px -8px rgba(0, 0, 0, 0.75);
 }
@@ -93,7 +92,6 @@ body {
   background: #ffdd18;
   z-index: 2;
   padding: 3rem;
-  border-radius: 5px;
   position: relative;
   margin-bottom: 2rem;
   -webkit-box-shadow: 5px 7px 22px -8px rgba(0, 0, 0, 0.75);
@@ -114,9 +112,10 @@ body {
 
 .btn {
   display: block;
+  font-family: inherit;
+  letter-spacing: inherit;
   margin: 3rem auto;
   padding: 1.5rem 3rem;
-  border-radius: 2px;
   background: #ffdd18;
   border: none;
   cursor: pointer;
@@ -204,7 +203,6 @@ input:checked + .slider:before {
 
 .footer img {
   height: 9rem;
-  border-radius: 4px;
 }
 
 @media only screen and (max-width: 62.5em) {
