@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #222;
-  letter-spacing: 0.17rem;
+  /* letter-spacing: 0.17rem; */
   background-color: #7b2172;
 }
 
@@ -101,6 +101,7 @@ body {
 
 .header__heading {
   font-size: 6rem;
+  font-weight: 700;
   color: black;
   text-align: center;
 }
@@ -209,10 +210,10 @@ input:checked + .slider:before {
 }
 
 .footer__cooperators a:nth-child(1) img{
-  width: 15rem;
+  width: 25rem;
 }
 .footer__cooperators a:nth-child(2) img{
-  width: 25rem;
+  width: 35rem;
 }
 
 @media only screen and (max-width: 62.5em) {
@@ -235,7 +236,13 @@ input:checked + .slider:before {
     font-size: 50%;
   }
 
-  .footer__cooperators > * {
+  .footer__cooperators {
+    flex-direction: column;
     margin-bottom: 2rem;
   }
+
+  .footer__cooperators > * {
+    margin-bottom: 3rem;
+  }
+
 }
