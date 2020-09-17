@@ -28,10 +28,13 @@ body {
   align-items: center;
 }
 
+.logo-box p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
 .logo-box__img {
   width: 200px;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
 }
 .container {
   max-width: 90rem;
@@ -67,7 +70,8 @@ body {
 
 .question h3 {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 2.6rem;
 }
 
 .question__number {
@@ -99,14 +103,16 @@ body {
 }
 
 .header__heading {
-  font-size: 5rem;
+  font-size: 10rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1px;
   font-weight: 700;
   color: black;
   text-align: center;
 }
 .header__subheading {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.6rem;
   color: black;
   text-align: center;
 }
@@ -115,7 +121,8 @@ body {
   display: block;
   font-family: inherit;
   letter-spacing: inherit;
-  margin: 1rem auto;
+  margin: 0 auto;
+  margin-top:7rem;
   padding: 1.5rem 3rem;
   background: #ffdd18;
   border: none;
@@ -199,7 +206,6 @@ input:checked + .slider:before {
   align-items: center;
 }
 
-
 .footer__text {
   font-weight: 600;
   margin-bottom: 4rem;
@@ -208,10 +214,10 @@ input:checked + .slider:before {
   text-align: center;
 }
 
-.footer__cooperators a:nth-child(1) img{
-  width: 25rem;
+.footer__cooperators a:nth-child(1) img {
+  width: 20rem;
 }
-.footer__cooperators a:nth-child(2) img{
+.footer__cooperators a:nth-child(2) img {
   width: 35rem;
 }
 
@@ -235,7 +241,7 @@ input:checked + .slider:before {
     font-size: 50%;
   }
 
-  .logo-box { 
+  .logo-box {
     padding: 1rem 2rem;
   }
 
@@ -247,5 +253,4 @@ input:checked + .slider:before {
   .footer__cooperators > * {
     margin-bottom: 3rem;
   }
-
 }
