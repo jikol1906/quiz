@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var questions = [
+  var theQuestions = [
     {
       question:
         'Mit Unterstützung und Verständnis können Menschen mit einer Sprachentwicklungsstörung (SES) soziale, akademische und berufliche Erfolge erreichen.',
@@ -95,10 +95,10 @@ $(document).ready(function () {
   var answers = [];
   var didClickFinish = false;
 
-  var container = $('.container');
+  var questions = $('.questions');
 
-  for (let i = 0; i < questions.length; i++) {
-    container.append(
+  for (let i = 0; i < theQuestions.length; i++) {
+    questions.append(
       '<div class="question" id="' +
         i +
         '">' +
@@ -106,7 +106,7 @@ $(document).ready(function () {
         '<span class="question__number">#' +
         (i + 1) +
         ' </span>' +
-        questions[i].question +
+        theQuestions[i].question +
         '</h3>' +
         '<div class="question__label-group">' +
         '<label class="switch">' +
@@ -129,7 +129,7 @@ $(document).ready(function () {
     );
   }
 
-  for (let i = 0; i < questions.length; i++) {
+  for (let i = 0; i < theQuestions.length; i++) {
     answers.push(false);
 
     $("input[type='radio'][name='" + i + "']").click(function () {
@@ -139,7 +139,7 @@ $(document).ready(function () {
 
   function updateAnswer(questionNumber, answer) {
     answers[questionNumber] = answer === 'true' ? true : false;
-    questions[questionNumber].didAnswer = true;
+    theQuestions[questionNumber].didAnswer = true;
   }
 
   function showResults() {
@@ -156,23 +156,23 @@ $(document).ready(function () {
         background: 'rgba(0,128,0,.1)',
       };
 
-      for (let i = 0; i < questions.length; i++) {
+      for (let i = 0; i < theQuestions.length; i++) {
         var question = $('#' + i + '');
-        if (questions[i].didAnswer && answers[i] !== questions[i].answer) {
-          if (questions[i].answer) {
+        if (theQuestions[i].didAnswer && answers[i] !== theQuestions[i].answer) {
+          if (theQuestions[i].answer) {
             $($('#' + i + '>.question__label-group')[1]).css(wrongStyles);
           } else {
             $($('#' + i + '>.question__label-group')[0]).css(wrongStyles);
           }
           question.append(
-            '<p class="question__details">' + questions[i].details + '</p>'
+            '<p class="question__details">' + theQuestions[i].details + '</p>'
           );
-        } else if (!questions[i].didAnswer) {
+        } else if (!theQuestions[i].didAnswer) {
           question.append(
-            '<p class="question__details">' + questions[i].details + '</p>'
+            '<p class="question__details">' + theQuestions[i].details + '</p>'
           );
         } else {
-          if (questions[i].answer) {
+          if (theQuestions[i].answer) {
             $($('#' + i + '>.question__label-group')[0]).css(correctStyles);
           } else {
             $($('#' + i + '>.question__label-group')[1]).css(correctStyles);
@@ -184,15 +184,15 @@ $(document).ready(function () {
         '<h3>Sie haben ' +
         correctAnswers +
         '/' +
-        questions.length +
+        theQuestions.length +
         ' Fragen richtig beantwortet</h3>';
       var scoreBoard = '<div class="scoreboard">' + score + '</div>';
-      container.prepend(scoreBoard);
+      questions.prepend(scoreBoard);
       didClickFinish = true;
     }
   }
 
-  container.append('<button class="btn" id="done-button">Fertig</button>');
+  questions.append('<button class="btn" id="done-button">Fertig</button>');
 
   $('#done-button').on('click', function () {
     // Using jQuery's animate() method to add smooth page scroll
