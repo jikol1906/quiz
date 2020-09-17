@@ -6,20 +6,21 @@ html {
 }
 
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Bebas Neue', sans-serif;
   color: #222;
-  letter-spacing:.17rem;
+  letter-spacing: 0.17rem;
   background-color: #7b2172;
 }
 
 .logo-box {
-  padding:5rem;
-  color:white;
+  padding: 1rem 5rem;
+  background-color: #4e1549;
+  color: white;
   font-size: 2.5rem;
   font-weight: 900;
   text-align: center;
@@ -29,14 +30,14 @@ body {
 }
 
 .logo-box__img {
-  width:200px;
+  width: 200px;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }
 .container {
-  max-width: 70rem;
+  max-width: 90rem;
   margin: 0 auto;
-  padding:2rem;
+  padding: 2rem;
 }
 
 .scoreboard {
@@ -114,7 +115,7 @@ body {
   display: block;
   font-family: inherit;
   letter-spacing: inherit;
-  margin: 3rem auto;
+  margin: 1rem auto;
   padding: 1.5rem 3rem;
   background: #ffdd18;
   border: none;
@@ -188,31 +189,40 @@ input:checked + .slider:before {
 }
 
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 5rem;
-  padding:4rem;
+  margin-top: 1.5rem;
+  padding: 3rem 0;
 }
+
+.footer__cooperators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 .footer__text {
   font-weight: 600;
+  margin-bottom: 4rem;
   font-size: 3.3rem;
   color: white;
+  text-align: center;
 }
 
-.footer img {
-  height: 9rem;
+.footer__cooperators a:nth-child(1) img{
+  width: 15rem;
+}
+.footer__cooperators a:nth-child(2) img{
+  width: 25rem;
 }
 
 @media only screen and (max-width: 62.5em) {
   .footer {
     flex-direction: column;
-    margin-top:0;
+    margin-top: 0;
   }
 
   .footer > * {
-    margin-bottom:4rem
+    margin-bottom: 4rem;
   }
 
   .logo-box {
@@ -223,5 +233,9 @@ input:checked + .slider:before {
 @media only screen and (max-width: 40.625em) {
   html {
     font-size: 50%;
+  }
+
+  .footer__cooperators > * {
+    margin-bottom: 2rem;
   }
 }

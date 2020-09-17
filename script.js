@@ -192,6 +192,10 @@ $(document).ready(function () {
     }
   }
 
+  function disableChoices() {
+    
+  }
+
   questions.append('<button class="btn" id="done-button">Fertig</button>');
 
   $('#done-button').on('click', function () {
@@ -199,7 +203,7 @@ $(document).ready(function () {
     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate(
       {
-        scrollTop: 0,
+        scrollTop: 300,
       },
       800
     );
