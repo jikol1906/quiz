@@ -63,7 +63,7 @@ body {
 }
 
 .question__details {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   background: rgba(0, 0, 0, 0.1);
   padding: 2rem;
 }
@@ -89,7 +89,8 @@ body {
 }
 
 .question__label-group span {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .header {
@@ -121,8 +122,8 @@ body {
   display: block;
   font-family: inherit;
   letter-spacing: inherit;
-  margin: 0 auto;
-  margin-top:7rem;
+  margin: 7rem auto;
+  
   padding: 1.5rem 3rem;
   background: #ffdd18;
   border: none;
@@ -197,7 +198,7 @@ input:checked + .slider:before {
 
 .footer {
   margin-top: 1.5rem;
-  padding: 3rem 0;
+  padding-bottom: 3rem;
 }
 
 .footer__cooperators {
