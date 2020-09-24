@@ -216,14 +216,11 @@ input:checked + .slider:before {
 .footer__bottom-text {
   text-align: center;
   color:white;
-  font-size:1.4rem;
+  font-size:1.9rem;
   margin-bottom: 1rem;;
 
 }
 
-.footer__bottom-text:nth-child(2) {
-  font-size: 1.9rem;;
-}
 .footer__cooperators a:nth-child(1) img {
   width: 25rem;
 }
