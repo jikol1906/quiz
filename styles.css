@@ -213,12 +213,14 @@ input:checked + .slider:before {
   text-align: center;
 }
 
-.footer__bottom-text {
+.footer__bottom-text-box {
   text-align: center;
-  color:white;
-  font-size:1.9rem;
-  margin-bottom: 1rem;;
+}
 
+.footer__bottom-text {
+  color: white;
+  font-size: 1.9rem;
+  margin-bottom: 5rem;
 }
 
 .footer__cooperators a:nth-child(1) img {
@@ -268,5 +270,4 @@ input:checked + .slider:before {
   .top-img-box__img {
     max-width: 100%;
   }
-
 }
