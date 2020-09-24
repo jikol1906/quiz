@@ -2,10 +2,10 @@ $(document).ready(function () {
   var theQuestions = [
     {
       question:
-        ' Mit Unterstützung und Verständnis zum Umgang mit SES können Betroffene soziale, akademische und berufliche Erfolge erreichen',
+        ' Mit Unterstützung und Verständnis zum Umgang mit SES können Betroffene soziale, akademische und berufliche Erfolge erreichen.',
       answer: true,
       details:
-        'Mit qualitativ hochwertiger Unterstützung, gesellschaftlicher Anerkennung und Verständnis zum Umgang mit SES können Betroffene soziale, akademische und berufliche Erfolge erreichen',
+        'Mit qualitativ hochwertiger Unterstützung, gesellschaftlicher Anerkennung und Verständnis zum Umgang mit SES können Betroffene soziale, akademische und berufliche Erfolge erreichen.',
     },
     {
       question:
@@ -25,7 +25,7 @@ $(document).ready(function () {
       question: 'Menschen mit einer SES sind nicht intelligent.',
       answer: false,
       details:
-        'Menschen mit einer SES haben unabhängig von deren Intelligenz Schwierigkeiten beim Produzieren und / oder Verstehen von Sprache.',
+        'Menschen mit einer SES haben unabhängig von deren Intelligenz Schwierigkeiten beim Produzieren und/oder Verstehen von Sprache.',
     },
     {
       question:
@@ -46,7 +46,7 @@ $(document).ready(function () {
         'Jugendliche mit einer SES profitieren nicht von einer sprachtherapeutischen Behandlung.',
       answer: false,
       details:
-        'Untersuchungen zeigen, dass Jugendliche von logopädischer Unterstützung profitieren.',
+        'Untersuchungen zeigen, dass Jugendliche von sprachtherapeutischer Unterstützung profitieren.',
     },
     {
       question:
