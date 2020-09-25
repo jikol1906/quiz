@@ -1,41 +1,46 @@
 html {
-    font-size: 62.5%;
-    line-height: 1.5;
-    background-color: #7b2172;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    padding:2rem;
-    /* letter-spacing: 0.17rem; */
-  }
+  font-size: 62.5%;
+  line-height: 1.5;
+  background-color: #7b2172;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 
-  .heading {
-      font-size:3rem;
-      margin-bottom: 3rem;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  h2 {
-      font-size: 2.3rem;
-      margin-bottom: .7rem;
-  }
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding: 8rem;
+  /* letter-spacing: 0.17rem; */
+}
 
-  h3 {
-      font-size: 2rem;
-      margin-bottom: .7rem;
-  }
+.heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
 
+h2 {
+  font-size: 2.3rem;
+  margin-bottom: 0.7rem;
+}
 
-  p {
-      font-size:1.6rem;
-      margin-bottom: 3rem;;
-  }
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 40.625em) {
+    body {
+        padding:2rem;
+    }
+}
