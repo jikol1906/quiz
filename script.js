@@ -65,7 +65,7 @@ $(document).ready(function () {
     },
 
     {
-      question: 'Erwachsene können nicht von einer SES betroffen sein',
+      question: 'Erwachsene können nicht von einer SES betroffen sein.',
       answer: false,
       details:
         'Auch wenn eine SES nicht sichtbar ist, kann sie ein Leben lang bestehen bleiben, wenn sie nicht erkannt und nicht behandelt wird.',
