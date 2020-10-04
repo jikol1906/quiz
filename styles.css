@@ -217,7 +217,7 @@ input:checked + .slider:before {
 .footer__text {
   font-weight: 600;
   margin-bottom: 4rem;
-  font-size: 2.9rem;
+  font-size: 2.4rem;
   color: white;
   text-align: center;
 }
@@ -235,16 +235,10 @@ input:checked + .slider:before {
   hyphens: none;
 }
 
-.footer__cooperators a:nth-child(1) img {
-  width: 25rem;
-}
-.footer__cooperators a:nth-child(2) img {
-  width: 20rem;
+.footer__cooperators img {
+  width: 22rem;
 }
 
-.footer__cooperators a:nth-child(3) img {
-  width: 35rem;
-}
 
 @media only screen and (max-width: 62.5em) {
   .footer {
