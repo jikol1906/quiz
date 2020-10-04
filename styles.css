@@ -38,9 +38,6 @@ body {
   font-weight: 600;
 }
 
-.logo-box__img {
-  width: 200px;
-}
 .container {
   max-width: 90rem;
   margin: 0 auto;
@@ -233,6 +230,9 @@ input:checked + .slider:before {
   color: white;
   font-size: 1.7rem;
   margin-bottom: 5rem;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 .footer__cooperators a:nth-child(1) img {
