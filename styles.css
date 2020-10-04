@@ -235,13 +235,19 @@ input:checked + .slider:before {
   hyphens: none;
 }
 
+.footer__img-box {
+  flex:1;
+  text-align: center;
+}
+
 .footer__cooperators img {
   width: 24rem;
 }
 
-.footer__cooperators a:nth-child(3) img {
-  width: 30rem;
+.footer__cooperators .footer__img-box:nth-child(3) img {
+  width: 33rem;
 }
+
 
 
 @media only screen and (max-width: 62.5em) {
