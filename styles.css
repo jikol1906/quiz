@@ -236,7 +236,11 @@ input:checked + .slider:before {
 }
 
 .footer__cooperators img {
-  width: 22rem;
+  width: 24rem;
+}
+
+.footer__cooperators a:nth-child(3) img {
+  width: 30rem;
 }
 
 
