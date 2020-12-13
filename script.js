@@ -93,6 +93,7 @@ $(document).ready(function () {
         i +
         '" />' +
         ' <span class="slider"></span>' +
+        '<span class="visually-hidden">Richtig</span>' +
         '</label>' +
         '<span>Richtig</span>' +
         '</div>' +
@@ -102,6 +103,7 @@ $(document).ready(function () {
         i +
         '"/>' +
         '<span class="slider"></span>' +
+        '<span class="visually-hidden">Falsch</span>' +
         ' </label>' +
         '  <span>Falsch</span>' +
         '</div>'
